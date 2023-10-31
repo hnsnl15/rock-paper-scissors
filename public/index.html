@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon_io/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Rock, Paper, & Scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <h1>Rock Paper Scissors</h1>
+        <div class="display-section">
+          <figure class="image-result-container">
+            <p>You</p>
+
+            <img src="" alt="" class="image-result" />
+            <figcaption id="player-caption"></figcaption>
+          </figure>
+          <div class="vs-container">
+            <h1 class="vs-text">VS</h1>
+          </div>
+          <figure class="image-result-container">
+            <p>Computer</p>
+            <img src="" alt="" class="image-result" />
+            <figcaption id="computer-caption"></figcaption>
+          </figure>
+        </div>
+
+        <div class="result-banner-text"><h2 id="result"></h2></div>
+
+        <div class="choices-container">
+          <h2>Pick your choice</h2>
+          <div class="btn-container">
+            <button class="btn-choice" id="rock">Rock</button>
+            <button class="btn-choice" id="paper">Paper</button>
+            <button class="btn-choice" id="scissor">Scissor</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
